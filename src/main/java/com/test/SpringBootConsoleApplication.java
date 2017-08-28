@@ -13,6 +13,7 @@ import java.util.List;
 import static java.lang.System.exit;
 
 @SpringBootApplication
+//@ImportResource("classpath:applicationContext.xml")
 public class SpringBootConsoleApplication implements CommandLineRunner {
 
     @Autowired
